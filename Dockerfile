@@ -12,6 +12,8 @@ ENV GOROOT  /usr/local/go
 
 RUN go get github.com/robfig/revel
 RUN go get github.com/robfig/revel/revel
+RUN go get github.com/gocql/gocql
+RUN go get github.com/codegangsta/martini
 
 EXPOSE 9000
 EXPOSE 6060
