@@ -14,7 +14,10 @@ RUN go get github.com/robfig/revel
 RUN go get github.com/robfig/revel/revel
 
 EXPOSE 9000
+EXPOSE 6060
 
 ENTRYPOINT /bin/bash
+CMD godoc -http=":6060"
+
 
 
