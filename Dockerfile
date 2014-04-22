@@ -1,5 +1,5 @@
 FROM ubuntu:13.10
-MAINTAINER Kevin Manley <kevin.manley@gmail.com
+MAINTAINER Kevin Manley <kevin.manley@gmail.com 
 
 RUN apt-get update
 RUN apt-get install -y curl git bzr mercurial tree
