@@ -1,5 +1,5 @@
 FROM ubuntu:precise
-MAINTAINER Kevin Manley <kevin.manley@gmail.com 
+MAINTAINER Kevin Manley <kevin.manley@gmail.com> 
 
 # Tell debconf to run in non-interactive mode
 ENV DEBIAN_FRONTEND noninteractive
@@ -32,6 +32,7 @@ RUN go get github.com/robfig/revel/revel
 RUN go get github.com/gocql/gocql
 RUN go get github.com/codegangsta/martini
 
+# Install LiteIDE
 RUN curl -L -s http://downloads.sourceforge.net/project/liteide/X22/liteidex22.linux-64.tar.bz2 | tar -v -C /usr/local/ -xj
 
 RUN apt-get install -y sakura gedit
