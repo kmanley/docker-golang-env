@@ -5,3 +5,5 @@ Host docker-golang-env
   ForwardX11 yes
   StrictHostKeyChecking no
   UserKnownHostsFile /dev/null
+
+
