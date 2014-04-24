@@ -1,0 +1,7 @@
+Host docker-golang-env
+  User      kevin 
+  Port      2222
+  HostName  127.0.0.1
+  ForwardX11 yes
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
